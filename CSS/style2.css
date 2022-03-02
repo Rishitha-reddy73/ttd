@@ -1,0 +1,43 @@
+*{
+    margin:0px;
+    padding:0px;
+    /* font-family:"PTSansNarrow"; */
+    font-family: 'PT Sans', sans-serif;
+    /* word-wrap:break-word; */
+  }
+  .maps{
+    position: absolute;
+    right:30px;
+  }
+  .cont{
+    position:relative;
+  }
+  .overlay
+  {
+    position:absolute;
+    top:50%;
+    left:50%;
+    font-size:34px;
+    color:white;
+    text-decoration: underline;
+  }
+  img{
+    width:100%;
+  }
+  .para{
+    font-size: 19px;
+    margin-right:330px;
+    margin-left:330px;
+  }
+  .heading{
+    text-align:center;
+    margin-top:30px;
+    color:#1f8bbf;
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-underline-offset: 3px;
+    margin-bottom:15px;
+  }
+  /* p{
+    margin-right:320px;
+  } */

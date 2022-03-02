@@ -1,0 +1,137 @@
+* {
+    font-family: 'PT Sans', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+  }
+
+  .first_banner {
+    position: relative;
+
+  }
+
+  .text_of_banner {
+    width: 500px;
+    box-sizing: border-box;
+    /* border:1px solid black; */
+    /* word-wrap: break-word; */
+    position: absolute;
+    top: 0px;
+    color: white;
+    padding-top: 250px;
+    left: 150px;
+    /* margin-top: 15px; */
+    padding-left: 20px;
+    background-color: #253a1a73;
+    height: 100%;
+
+    /* opacity:0.5; */
+    /* transform: translate(-50%, -50%); */
+  }
+
+  nav {
+    background-color: rgba(255, 255, 255, 0.5);
+    ;
+    /* background: transparent; */
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .place-names {
+    margin-top: 30px;
+    /* margin-left:20px; */
+    letter-spacing: -1px;
+    margin-left: 54px;
+
+  }
+
+  .sites {
+    object-fit: cover;
+  }
+
+  .for_slick_slider {
+    display: flex;
+  }
+
+  .for_slick_slider .items {
+    /* display:flex; */
+    margin: 20px;
+  }
+
+  .for_slick_slider .items img {
+    border-radius: 15px;
+    /* width:340px; */
+    /* height:450px; */
+    width: 320px;
+    height: 324px;
+  }
+
+  .cont {
+    position: relative;
+    cursor: pointer;
+  }
+
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    /* background: rgb(0, 0, 0); */
+    background: rgba(0, 0, 0, 0.5);
+    /* Black see-through */
+    color: #f1f1f1;
+    width: 320px;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+    /* margin-right:0px; */
+    /* */
+  }
+
+  .slick-prev {
+    /* background-image: url(""); */
+    background-color: white;
+    border: none;
+    opacity: 0.2;
+  }
+
+  .slick-next {
+    border: none;
+    background-color: white;
+    opacity: 0.2;
+
+  }
+
+  .slick-next:hover,
+  .slick-prev:hover {
+    opacity: 1;
+  }
+
+
+
+  .cont:hover .overlay {
+    opacity: 1;
+  }
+
+  .btns {
+    border-radius: 15px;
+    /* color:white; */
+    /* padding:5px; */
+  }
+  .footer{
+    text-align: center;
+    box-sizing: border-box;
+    background-color:rgba(0, 0, 0);
+    color:white;
+    font-size: 25px;
+  }
+  
+  .a img{
+    box-sizing: border-box;
+    margin-right: 40px;
+    
+  }
+  #contact-us{
+    margin-top:100px;
+  }
